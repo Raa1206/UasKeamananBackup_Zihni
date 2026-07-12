@@ -1,0 +1,4 @@
+Flask
+b2sdk
+pyzipper
+python-dotenv

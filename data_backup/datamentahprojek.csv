@@ -1,0 +1,168 @@
+﻿Melakukan Feature Scaling dengan cara menskalakan jawaban ke dalam bentuk numerik;;;;;;;;;;;;
+No;Timestamp;Nama;Usia ;  Jenis Kelamin;Aktivitas utama ;Penghasilan ;Jadwal Skincare ;Rata-rata Pengeluaran;Resiko Penggunaan Skincare;Tujuan penggunaan skincare;Pengaruh Utama;Tempat Pembelian
+1;11/12/2025 23:18:30;maboyyy;18;Perempuan;Pelajar / Mahasiswa;1;3,5;2;1;2;3;2
+2;11/12/2025 23:19:17;Sri Ayu Kartika;20;Perempuan;Pelajar / Mahasiswa;1;2,5;2;2;1;3;2
+3;11/12/2025 23:19:41;Riska Aulia Rao Pasaribu;18;Perempuan;Pelajar / Mahasiswa;1;3,5;2;1,5;2;4;2
+4;11/12/2025 23:21:25;Lisa aura Adha hsb ;20;Perempuan;Pelajar / Mahasiswa;2;3,5;3;3;1;2;4
+5;11/12/2025 23:21:38;Evi Yuliyanti;20;Perempuan;Pelajar / Mahasiswa;2;4;4;2;1;4;1
+6;11/12/2025 23:22:36;Zihni Tamara Barus;20;Perempuan;Pelajar / Mahasiswa;1;5;2;3;2;2;2
+7;11/12/2025 23:27:05;intan nur aini;19;Perempuan;Pelajar / Mahasiswa;2;4,5;3;3,5;1;3;1
+8;11/12/2025 23:27:24;Elvira Chandra ;20;Perempuan;Pelajar / Mahasiswa;2;2,5;1;1,5;1;3;1
+9;11/12/2025 23:28:16;Alykha Salsabila Nazaha ;20;Perempuan;Pelajar / Mahasiswa;1;3,5;2;3;1;2,5;2
+10;11/12/2025 23:28:39;Dita Maulina ;20;Perempuan;Pelajar / Mahasiswa;1;4;2;1,5;2;3,5;2
+11;11/12/2025 23:29:31;Raihanah ;20;Perempuan;Pelajar / Mahasiswa;1;3,5;1;1,5;1;3,5;1
+12;11/12/2025 23:29:54;Meilani Wijaya;21;Perempuan;Pelajar / Mahasiswa;1;4;2;2;1;3;2
+13;11/12/2025 23:30:19;Nabil Al karim ;20;Laki-Laki;Pelajar / Mahasiswa;1;3;2;2;5;3;2
+14;11/12/2025 23:30:48;Alinda Salsabilah;19;Perempuan;Pelajar / Mahasiswa;1;2,5;1;2;3;3;1
+15;11/12/2025 23:31:37;rahma;20;Perempuan;Pelajar / Mahasiswa;1;4,5;2;2,5;1;3,5;1
+16;11/12/2025 23:31:49;Nirma;22;Perempuan;Pelajar / Mahasiswa;4;5;3;1,5;1;3;1
+17;11/12/2025 23:31:59;Zafira;20;Perempuan;Pelajar / Mahasiswa;1;1,5;1;3,5;1;3;2
+18;11/12/2025 23:32:30;Ishma Nabila Ariani Hrp;20;Perempuan;Pelajar / Mahasiswa;2;3,5;2;1,5;1;3;2
+19;11/12/2025 23:32:55;ardiansyah;20;Laki-Laki;Pelajar / Mahasiswa;4;5;5;1,5;5;4;2
+20;11/12/2025 23:33:38;Andika Dhana Prawira Siregar;20;Laki-Laki;Pelajar / Mahasiswa;2;1,5;2;1;1;3;1
+21;11/12/2025 23:33:49;Reni sari Nasution ;19;Perempuan;Pelajar / Mahasiswa;1;5;2;4;2;5;2
+22;11/12/2025 23:35:35;Yasri Hidayat ;19;Laki-Laki;Pelajar / Mahasiswa;1;3;1;1;2;2,5;1
+23;11/12/2025 23:37:05;Rahmadani Hasibuan ;19;Laki-Laki;Pelajar / Mahasiswa;4;5;5;3;5;3;5
+24;11/12/2025 23:41:57;reynaldo gunawan ;21;Laki-Laki;Pelajar / Mahasiswa;2;2;1;1,5;2;2,5;2
+25;11/12/2025 23:42:05;Yurida ;20;Perempuan;Pelajar / Mahasiswa;1;3,5;1;1,5;1;2,5;1
+26;11/12/2025 23:45:19;Hafiz Ahmad Ikhsanul Yannas;21;Laki-Laki;Pelajar / Mahasiswa;2;2,5;2;3;2;2;2
+27;11/12/2025 23:45:40;Nursalmina ;19;Perempuan;Pelajar / Mahasiswa;1;4,5;2;1,5;5;2,5;1
+28;11/12/2025 23:47:04;Rizki aulia nanda;22;Laki-Laki;Pelajar / Mahasiswa;1;3,5;1;2;1;2;2
+29;11/12/2025 23:49:18;Reza Virgiawan Amazone ;20;Laki-Laki;Pelajar / Mahasiswa;1;1,5;1;1,5;2;2;1
+30;11/12/2025 23:51:58;Alwan Shihab;20;Laki-Laki;Pelajar / Mahasiswa;1;3,5;2;1;2;3;2
+31;11/12/2025 23:55:09;Mikayla;16;Perempuan;Pelajar / Mahasiswa;1;2;2;1,5;1;2,5;1
+32;11/12/2025 23:58:44;Nova Lovia ;23;Perempuan;Pelajar / Mahasiswa;4;4,5;2;2;1;3;1
+33;11/13/2025 0:12:49;Dea Ismawati;21;Perempuan;Pelajar / Mahasiswa;1;4,5;2;1,5;1;2,5;2
+34;11/13/2025 0:21:44;rania sabikha;20;Perempuan;Pelajar / Mahasiswa;1;4,5;2;4;1;3;2
+35;11/13/2025 0:23:53;Adrizan Ikhsan;21;Laki-Laki;Wiraswasta;2;1,5;1;2;3;2,5;4
+36;11/13/2025 0:25:52;fathimah az-zahra;18;Perempuan;Pelajar / Mahasiswa;1;4,5;2;3,5;1;3;2
+37;11/13/2025 0:31:29;Daura shifa;19;Perempuan;Pelajar / Mahasiswa;2;4;3;2;1;3;2
+38;11/13/2025 0:33:18;Fadila Putri;20;Perempuan;Pelajar / Mahasiswa;1;4,5;2;1,5;1;2;1
+39;11/13/2025 0:34:38;Shakila Angelita;21;Perempuan;Pelajar / Mahasiswa;1;3;2;1;5;3;2
+40;11/13/2025 0:46:50;Nur Atika Bayzura;21;Perempuan;Pelajar / Mahasiswa;1;4;2;1,5;1;3;2
+41;11/13/2025 1:02:06;Dzaki Juliana Patoni ;20;Laki-Laki;Pelajar / Mahasiswa;1;2,5;1;2;2;4;2
+42;11/13/2025 1:46:37;Aslam ;20;Laki-Laki;Pelajar / Mahasiswa;1;2;1;3;1;2;5
+43;11/13/2025 2:50:53;Zulnuary Nurul Cintya ;21;Perempuan;Pelajar / Mahasiswa;1;3,5;2;1,5;5;2,5;2
+44;11/13/2025 3:08:46;Siti Nadifa Ramadhani;20;Perempuan;Pelajar / Mahasiswa;1;4;2;3,5;1;3;2
+45;11/13/2025 5:25:02;Rahul Pratama Siregar ;19;Laki-Laki;Pelajar / Mahasiswa;2;3,5;2;4,5;5;4;2
+46;11/13/2025 5:27:38;Heni Nurjanah Br Purba ;41;Perempuan;Guru;3;4;2;3,5;5;3,5;4
+47;11/13/2025 5:52:24;Ipiw;20;Perempuan;Pelajar / Mahasiswa;1;3,5;2;4;1;2,5;2
+48;11/13/2025 6:29:55;Naia Tantia Putri ;21;Perempuan;Pelajar / Mahasiswa;1;2;1;1;1;2;2
+49;11/13/2025 6:32:10;Faiz;18;Laki-Laki;Pelajar / Mahasiswa;2;4;3;2;2;4;2
+50;11/13/2025 6:33:20;Dian anggun saei;20;Perempuan;Pelajar / Mahasiswa;1;5;3;3,5;1;3,5;2
+51;11/13/2025 6:36:10;Audialiy Dewfan ;20;Perempuan;Pelajar / Mahasiswa;1;4;3;2;1;4;2
+52;11/13/2025 6:38:00;ref;21;Perempuan;Pelajar / Mahasiswa;2;3,5;3;4;5;3;2
+53;11/13/2025 6:52:27;sintya khofifah ;20;Perempuan;Pelajar / Mahasiswa;2;4,5;4;3;5;2,5;2
+54;11/13/2025 7:04:35;Dini Aisyah Putri;20;Perempuan;Pelajar / Mahasiswa;2;4;2;1,5;1;3,5;1
+55;11/13/2025 8:30:00;Esti Ulandari;23;Perempuan;Karyawan;2;3,5;2;2;1;3;2
+56;11/13/2025 8:30:43;Sophia ;20;Perempuan;Pelajar / Mahasiswa;1;3;2;1,5;1;2,5;2
+57;11/13/2025 9:02:15;Kurniati Lestari;41;Perempuan;Guru;4;4,5;3;3;1;4;1
+58;11/13/2025 9:09:33;Putri;34;Perempuan;Karyawan;3;4;3;4,5;1;3,5;1
+59;11/13/2025 9:15:30;Diva Adellia;23;Perempuan;Karyawan;2;3,5;2;2;1;3;2
+60;11/13/2025 9:15:45;SRI WIDAYANI GIRSANG;43;Perempuan;Guru;3;4,5;4;2;1;3;5
+61;11/13/2025 9:16:34;MARIYANI;37;Perempuan;Guru;1;1;1;2,5;1;3;1
+62;11/13/2025 9:17:13;annisa afrilia;19;Perempuan;Pelajar / Mahasiswa;3;2,5;4;3,5;5;3;1
+63;11/13/2025 9:20:58;Suaidah;40;Perempuan;Ibu Rumah Tangga;1;1,5;1;3;1;3;2
+64;11/13/2025 9:21:15;Habibi;40;Perempuan;Guru;3;3,5;3;1;2;3,5;4
+65;11/13/2025 9:22:30;Lenni Marlina Siboro ;42;Perempuan;Ibu Rumah Tangga;3;2;2;2,5;1;2;1
+66;11/13/2025 9:25:05;Aliza Salim;26;Perempuan;Ibu Rumah Tangga;1;4;1;2,5;1;3;2
+67;11/13/2025 9:26:13;Wika Alfina ;30;Perempuan;Ibu Rumah Tangga;3;2,5;2;3,5;5;2,5;1
+68;11/13/2025 9:26:44;Dewi ASNITA br Purba ;38;Perempuan;Ibu Rumah Tangga;2;4,5;3;3;5;1,5;1
+69;11/13/2025 9:27:09;Lenny;48;Perempuan;PNS;3;3,5;3;4;5;3;1
+70;11/13/2025 9:27:20;Amanda Renata Sari ;20;Perempuan;Pelajar / Mahasiswa;2;3,5;2;2;2;3;2
+71;11/13/2025 9:28:29;Sri Rejeki Apriyani;42;Perempuan;Ibu Rumah Tangga;1;1;1;3;1;1;1
+72;11/13/2025 9:38:58;Rutnita Ginting;37;Perempuan;Guru;3;3;2;1,5;2;3;2
+73;11/13/2025 9:41:51;Fatiah Azzahra Gea ;20;Perempuan;Pelajar / Mahasiswa;2;4,5;2;4;5;3;2
+74;11/13/2025 9:55:07;Nova Astri;43;Perempuan;Guru;3;2,5;1;3,5;1;3;1
+75;11/13/2025 9:59:19;Fadhilla;35;Perempuan;Guru;3;3;1;1,5;1;2;1
+76;11/13/2025 10:02:38;Yanti;44;Perempuan;Ibu Rumah Tangga;3;4;2;3;1;3;1
+77;11/13/2025 10:04:08;Fauziah ;45;Perempuan;Ibu Rumah Tangga;3;4,5;3;3;5;3;2
+78;11/13/2025 10:04:52;Dara Aulia;19;Perempuan;Pelajar / Mahasiswa;1;4;3;3,5;1;4;2
+79;11/13/2025 10:12:44;Heni Nurjanah Br Purba ;41;Perempuan;Guru ;3;4,5;3;3,5;1;4;4
+80;11/13/2025 10:17:11;Heni Nurjanah;41;Perempuan;Ibu Rumah Tangga;2;5;3;1,5;1;3;2
+81;11/13/2025 10:17:14;Eli;57;Perempuan;Karyawan;2;1;1;1,5;5;1,5;1
+82;11/13/2025 10:19:14;tania;17;Perempuan;Pelajar / Mahasiswa;1;4,5;2;4;2;3,5;2
+83;11/13/2025 10:26:54;Nazwa Azizah Harahap ;20;Perempuan;Pelajar / Mahasiswa;1;4,5;2;1;5;2;2
+84;11/13/2025 10:27:22;Aisyah ;52;Perempuan;Karyawan;1;1;1;1;1;1;1
+85;11/13/2025 10:28:08;Alifa;17;Perempuan;Pelajar / Mahasiswa;1;4;2;4;1;3;1
+86;11/13/2025 10:32:08;NINING BUDY AYOVI;44;Perempuan;Ibu Rumah Tangga;3;3,5;3;3;1;3;1
+87;11/13/2025 10:37:38;Nia Andriani ;38;Perempuan;Wiraswasta;1;2,5;1;1;1;1,5;1
+88;11/13/2025 10:37:43;Mita Dwi Dayanti;20;Perempuan;Pelajar / Mahasiswa;1;4;2;4,5;2;2;1
+89;11/13/2025 10:38:07;Syarifah najwa;19;Perempuan;Pelajar / Mahasiswa;1;5;4;2,5;1;4;4
+90;11/13/2025 10:38:33;Selli;22;Perempuan;Karyawan;3;3,5;2;3;1;2,5;2
+91;11/13/2025 10:40:43;Nadia tri aulia;19;Perempuan;Pelajar / Mahasiswa;2;4,5;2;3,5;1;2,5;1
+92;11/13/2025 10:43:14;Rika Desi Ananda ;19;Perempuan;Pelajar / Mahasiswa;3;4,5;5;4;5;2,5;2
+93;11/13/2025 10:43:19;Sumarni;44;Perempuan;Guru;1;2,5;2;1;1;3,5;1
+94;11/13/2025 10:44:22;EGA ARDIANI;26;Perempuan;guru;2;4;2;1;5;3;1
+95;11/13/2025 10:52:01;Suriani;41;Perempuan;Tu;2;3;1;2;1;2,5;1
+96;11/13/2025 11:01:06;Adha;28;Perempuan;Guru;1;4;2;2,5;1;3;2
+97;11/13/2025 11:03:22;putri andila;19;Perempuan;Pelajar / Mahasiswa;1;2,5;1;2;1;2;1
+98;11/13/2025 11:03:46;Emiya Amanda Br Sitepu;19;Perempuan;Pelajar / Mahasiswa;1;3;2;2,5;1;3;2
+99;11/13/2025 11:12:02;Nika Wahyuni Manik;21;Perempuan;Pelajar / Mahasiswa;1;4;1;4;2;4;1
+100;11/13/2025 11:18:02;Kirana ;20;Perempuan;Pelajar / Mahasiswa;2;5;2;1;3;2;2
+101;11/13/2025 11:32:02;Zam'ah Siregar;59;Perempuan;Guru;2;1,5;2;3;2;1,5;1
+102;11/13/2025 11:32:04;dini rifani;19;Perempuan;kerja ;1;3,5;1;3,5;1;3;1
+103;11/13/2025 11:40:02;Khalif Fatoni;20;Laki-Laki;Pelajar / Mahasiswa;1;3,5;1;1;1;2,5;1
+104;11/13/2025 11:51:09;aca;19;Perempuan;Pelajar / Mahasiswa;1;4;1;1,5;1;2;2
+105;11/13/2025 12:01:32;TIARA EMILIA PUTRI;19;Perempuan;Pelajar / Mahasiswa;1;4;2;1,5;1;2;2
+106;11/13/2025 12:02:11;Anggun Maharani;19;Perempuan;Pelajar / Mahasiswa;1;4,5;2;3,5;1;4;2
+107;11/13/2025 12:22:25;Wirda Zuhaira;20;Perempuan;Pelajar / Mahasiswa;1;2;2;2;1;2,5;1
+108;11/13/2025 14:23:51;Desi Amelia;21;Perempuan;Pelajar / Mahasiswa;1;4,5;3;2,5;5;4;4
+109;11/13/2025 14:24:59;mhd zakiy ananda rizal;21;Laki-Laki;Pelajar / Mahasiswa;2;3;1;2;2;3;3
+110;11/13/2025 15:05:50;nada dwi aprilia ;20;Perempuan;Pelajar / Mahasiswa;2;4,5;2;3;5;3;1
+111;11/13/2025 15:08:20;Ardo;20;Laki-Laki;Pelajar / Mahasiswa;1;4;2;1,5;2;2,5;1
+112;11/13/2025 15:17:45;Muhammad Ruslan;30;Laki-Laki;Karyawan;3;2,5;2;1;1;1;1
+113;11/13/2025 15:30:15;Muhammad Zikra Multazam ;20;Laki-Laki;Pelajar / Mahasiswa;1;4;2;1;1;3;1
+114;11/13/2025 15:33:19;Rita suyenti;40;Perempuan;Karyawan;3;3,5;4;2,5;2;3,5;4
+115;11/13/2025 15:38:05;Raihana;20;Perempuan;Pelajar / Mahasiswa;1;3;1;1,5;2;3,5;1
+116;11/13/2025 15:39:52;Cut Putri Nadia;20;Perempuan;Pelajar / Mahasiswa;1;3,5;2;3;5;2,5;2
+117;11/13/2025 15:40:57;Amartya Salimi Rahmah;19;Perempuan;Pelajar / Mahasiswa;1;3;2;4;1;2,5;2
+118;11/13/2025 15:46:13;Muhammad haikal;21;Laki-Laki;Pelajar / Mahasiswa;2;2,5;2;1,5;1;3;5
+119;11/13/2025 15:52:11;Nayna Azzahra Barus;18;Perempuan;Pelajar / Mahasiswa;1;2,5;1;1;1;2,5;2
+120;11/13/2025 15:58:30;tamim;18;Laki-Laki;Pelajar / Mahasiswa;1;2,5;3;1,5;2;4;4
+121;11/13/2025 16:12:47;Nur Azizah;17;Perempuan;Pelajar / Mahasiswa;1;3,5;2;3;2;3;2
+122;11/13/2025 16:18:24;Zack Nicolan;34;Laki-Laki;Wiraswasta;4;1,5;1;1,5;1;3,5;2
+123;11/13/2025 16:23:56;Fitra Novriandika;15;Laki-Laki;Pelajar / Mahasiswa;1;3;2;1,5;2;2,5;1
+124;11/13/2025 17:18:08;geisha yunaya;18;Perempuan;Pelajar / Mahasiswa;1;3,5;1;2;5;4;2
+125;11/13/2025 17:21:21;Zaky Ikhwan;21;Laki-Laki;Pelajar / Mahasiswa;2;4;3;4,5;1;2,5;1
+126;11/13/2025 17:58:59;Rasyid Fadhilah Berutu;20;Laki-Laki;Pelajar / Mahasiswa;1;1,5;2;3;2;2,5;1
+127;11/13/2025 17:59:42;fatia;21;Perempuan;Pelajar / Mahasiswa;1;3;2;2;1;2,5;1
+128;11/13/2025 18:07:05;roy;20;Laki-Laki;Pelajar / Mahasiswa;2;3,5;1;2;2;3;2
+129;11/13/2025 18:10:48;Sherly Nadia Refica ;20;Perempuan;Pelajar / Mahasiswa;1;4;2;1;1;2;1
+130;11/13/2025 18:16:43;Yulia Indriani ;18;Perempuan;Pelajar / Mahasiswa;1;3,5;2;1,5;1;3,5;2
+131;11/13/2025 18:46:13;Irvan Johansyah ;36;Laki-Laki;Karyawan;3;3;1;1;1;3,5;1
+132;11/13/2025 19:02:56;Ila Febriana;26;Perempuan;Guru;2;4;3;4;1;3,5;4
+133;11/13/2025 19:12:08;Cindy Stevani Tanujaya;20;Perempuan;Pelajar / Mahasiswa;2;5;2;2;3;3,5;4
+134;11/13/2025 19:19:51;Yodi Pratama Sagala;19;Laki-Laki;Pelajar / Mahasiswa;2;3,5;3;1,5;2;2;4
+135;11/13/2025 19:28:36;Mikun;21;Perempuan;Pelajar / Mahasiswa;1;4;2;2;1;2,5;1
+136;11/13/2025 19:28:52;Zainuddin;20;Laki-Laki;Pelajar / Mahasiswa;2;2,5;1;1;1;2,5;1
+137;11/13/2025 19:35:53;Dea Chan;20;Perempuan;Pelajar / Mahasiswa;2;2,5;3;1,5;5;3,5;1
+138;11/13/2025 20:10:41;Maseto Aryo Probo ;22;Laki-Laki;Pengusaha ;4;3,5;4;1,5;4;2,5;1
+139;11/13/2025 20:33:03;Ricci;20;Laki-Laki;Pelajar / Mahasiswa;1;4;1;3,5;1;2;1
+140;11/13/2025 20:45:51;Rinto Martono Sihombing ;20;Laki-Laki;Pelajar / Mahasiswa;1;2,5;1;2;1;2;1
+141;11/13/2025 21:54:39;dadap;19;Laki-Laki;Pelajar / Mahasiswa;1;1,5;1;1,5;1;2,5;1
+142;11/13/2025 21:57:54;alvain baik;19;Laki-Laki;Pelajar / Mahasiswa;1;3;1;3;1;3,5;4
+143;11/13/2025 22:52:39;Jihan Salsabila ;20;Perempuan;Pelajar / Mahasiswa;1;2,5;2;4;2;2,5;1
+144;11/13/2025 23:49:51;dinda azalia ;20;Perempuan;Pelajar / Mahasiswa;1;4,5;3;2;1;2,5;2
+145;11/14/2025 6:28:15;Vivi Anggraini;16;Perempuan;Pelajar / Mahasiswa;1;3,5;2;2;2;3;1
+146;11/14/2025 11:17:15;Wendri nabawi ;22;Laki-Laki;Wiraswasta;3;1,5;2;2;1;1,5;1
+147;11/14/2025 11:35:48;Ikbal;21;Laki-Laki;Pelajar / Mahasiswa;1;2;1;1;1;2,5;1
+148;11/14/2025 11:44:48;Lisni Harahap;20;Perempuan;Pelajar / Mahasiswa;2;4,5;1;2;1;3,5;2
+149;11/14/2025 11:47:56;Fitri;20;Perempuan;Pelajar / Mahasiswa;1;3;2;2,5;3;3;2
+150;11/14/2025 11:53:16;Sari;20;Perempuan;Pelajar / Mahasiswa;1;4;2;2;1;2,5;2
+151;11/14/2025 11:56:59;kairil anuar;22;Laki-Laki;Pelajar / Mahasiswa;1;3,5;1;3,5;5;2,5;1
+152;11/14/2025 11:57:06;GILANG RAMADHAN ;21;Laki-Laki;Wiraswasta;4;3;2;1;1;2;1
+153;11/14/2025 12:35:51;dikka dwi putra lubis;17;Laki-Laki;Pelajar / Mahasiswa;1;4;2;4;1;4;2
+154;11/14/2025 12:48:15;putri sari andayani;18;Perempuan;Pelajar / Mahasiswa;1;4;2;4;5;3;2
+155;11/14/2025 12:58:26;Alin;26;Perempuan;Karyawan;3;4;3;3;5;3;2
+156;11/14/2025 13:06:29;Rahendra sakti yudha harahap;20;Laki-Laki;Pelajar / Mahasiswa;1;2,5;1;1,5;5;2;1
+157;11/14/2025 13:25:08;Indah;17;Perempuan;Pelajar / Mahasiswa;1;3;2;2;1;3;2
+158;11/14/2025 15:38:58;satria;21;Laki-Laki;Pelajar / Mahasiswa;2;2;1;2;1;3;2
+159;11/14/2025 15:56:26;ghaida;21;Perempuan;Pelajar / Mahasiswa;1;3;1;2,5;1;3;2
+160;11/14/2025 17:42:51;Nabila Amira;20;Perempuan;Pelajar / Mahasiswa;1;4,5;4;3;2;3;1
+161;11/14/2025 21:13:42;Azra Nabila;20;Perempuan;Pelajar / Mahasiswa;1;3;1;3;1;3;1
+162;11/16/2025 15:33:19;Najwa Fadhilla ;20;Perempuan;Pelajar / Mahasiswa;2;3,5;2;3,5;1;3;4
+163;11/16/2025 20:18:18;naz imut lucu;20;Perempuan;Pelajar / Mahasiswa;1;3,5;2;1;2;3,5;2
+164;11/17/2025 14:01:45;nopal;20;Laki-Laki;Pelajar / Mahasiswa;1;2;1;1,5;1;2;1
+165;11/18/2025 11:16:16;Annisya Febriana Lubis;19;Perempuan;Pelajar / Mahasiswa;2;3;1;1,5;1;2,5;2
+166;11/18/2025 23:22:20;Ainul Helmi Singki ;20;Perempuan;Pelajar / Mahasiswa;1;3;1;1;1;2,5;2
