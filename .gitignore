@@ -5,3 +5,5 @@ __pycache__/
 
 backup_*.zip
 backup.log
+
+data_backup/
