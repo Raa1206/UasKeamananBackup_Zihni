@@ -20,6 +20,8 @@ Buat file `.env` pada direktori proyek dengan isi:
 ```env
 B2_KEY_ID=your_key_id
 B2_APPLICATION_KEY=your_application_key
+B2_BUCKET_NAME=your_bucket_name
+AES_PASSWORD=your_backup_password
 ```
 
 ## Menjalankan Backup Secara Manual
